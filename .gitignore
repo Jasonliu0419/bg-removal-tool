@@ -1,0 +1,21 @@
+# Python 虛擬環境（450M，使用者自行重建，見 README）
+.venv/
+
+# Python 快取
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# 私有素材：使用者的 PuPu app 圖示，不入庫
+pupu app 新圖示/
+
+# 去背輸出：只保留資料夾本身，內容不入庫
+去背結果/*
+!去背結果/.gitkeep
+
+# 輸入圖片：只保留資料夾本身，內容不入庫
+輸入圖片/*
+!輸入圖片/.gitkeep
