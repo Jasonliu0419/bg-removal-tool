@@ -69,5 +69,5 @@
 - 若 `.venv` 損壞,重建:
   ```bash
   python3 -m venv .venv
-  .venv/bin/pip install "rembg[cpu]" "pillow>=9.2" onnxruntime scipy numpy
+  .venv/bin/pip install -r requirements.txt
   ```

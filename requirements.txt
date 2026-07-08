@@ -1,0 +1,7 @@
+# 圖片去背小工具依賴（CPU 版）
+# 安裝：python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+rembg[cpu]>=2.0.76
+pillow>=9.2
+onnxruntime>=1.27.0
+scipy>=1.11
+numpy>=1.24
